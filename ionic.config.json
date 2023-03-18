@@ -1,11 +1,5 @@
 {
-  "name": "app-ionic-clone",
+  "name": "MeuApp",
   "integrations": {},
-  "type": "ionic1",
-  "watchPatterns": [
-    "scss/**/*",
-    "www/**/*",
-    "!www/lib/**/*",
-    "!www/**/*.map"
-  ]
+  "type": "angular"
 }
