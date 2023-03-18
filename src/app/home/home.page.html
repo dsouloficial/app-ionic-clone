@@ -1,20 +1,131 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <header class="header">
+    <h1 class="header__title">Hi Mike,<br>Where do you want to go?</h1>
+  </header>
+  <br>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar
+    class="search"
+    placeholder="Input destination"
+    search-icon="location-sharp"
+    style="padding: 1rem;"
+  >
+  </ion-searchbar>
+  <br><br>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="breadcrumbs">
+    <div>
+      <h3>Daily Scenery</h3>
+      <strong>Updated</strong>
+    </div>
+    <span>More</span>
+  </div>
+  <br>
+
+  <ion-card class="big-card">
+    <img
+      alt="Silhouette of mountains"
+      src="https://images.unsplash.com/photo-1609623279016-698dc83c2841?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+      style="width: 100%; height: 7.5rem; object-fit: cover;"
+    />
+    
+    <div class="big-card__content">
+      <div>
+        <span class="big-card__date">2023.03.18</span>
+        <ion-card-header>
+          <ion-card-title style="font-size: 1rem">Santa Barbara, United States</ion-card-title>
+        </ion-card-header>
+      </div>
+
+      <div class="big-card__avatars">
+        <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+          <img
+            alt="Silhouette of a person's head"
+            src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1044&q=80"
+          />
+        </ion-avatar>
+        <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+          <img
+            alt="Silhouette of a person's head"
+            src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+          />
+        </ion-avatar>
+      </div>
+    </div>
+  </ion-card>
+  <br><br>
+
+  <div class="breadcrumbs">
+    <div>
+      <h3>Daily Scenery</h3>
+      <div class="breadcrumbs__tag">Hot</div>
+    </div>
+    <span>More</span>
+  </div>
+  <br>
+
+  <ion-grid class="mini-card-group">
+    <ion-row style="height: 6rem; gap: 0.5rem;">
+      <ion-col>
+        <div class="mini-card-group__card">
+          <img
+            src="https://images.unsplash.com/photo-1605581810011-c6d684e7ca22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1138&q=80"
+            alt="Foto da Turkey"
+          >
+          <span>Turkey</span>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="mini-card-group__card">
+          <img
+            src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="Foto da Germany"
+          >
+          <span>Germany</span>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="mini-card-group__card">
+          <img
+            src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1134&q=80"
+            alt="Foto da Turkey"
+          >
+          <span>Turkey</span>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <br><br>
+
+  <h3 class="subtitle">Master</h3>
+  <br>
+
+  <div class="avatars">
+    <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+      <img
+        alt="Silhouette of a person's head"
+        src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+      />
+    </ion-avatar>
+    <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+      <img
+        alt="Silhouette of a person's head"
+        src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      />
+    </ion-avatar>
+    <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+      <img
+        alt="Silhouette of a person's head"
+        src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1044&q=80"
+      />
+    </ion-avatar>
+    <ion-avatar style="width: 2.5rem; height: 2.5rem;">
+      <img
+        alt="Silhouette of a person's head"
+        src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
+      />
+    </ion-avatar>
+
+    <span class="avatars__text">Join them.</span>
   </div>
 </ion-content>
